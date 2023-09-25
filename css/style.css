@@ -61,3 +61,32 @@ header {
     height: 300px;
     width: 700px;
 }
+
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.white {
+    background-color: white;
+}
+
+.grey {
+    background-color: #D3D3D3;
+}
+
+.img-container .text {
+    background-color: #FFC0CB;
+    width: 30%;
+}
+
+.img-container .img {
+    background-color: #1E90FF;
+    width: 50%;
+}
+
+.img-container .img, .img-container .text {
+    border: 2px dashed black;
+    margin: 50px 0;
+    height: 400px;
+}
