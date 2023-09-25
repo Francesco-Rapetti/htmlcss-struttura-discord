@@ -67,6 +67,10 @@ header {
     justify-content: center;
 }
 
+.img-container.grey {
+    flex-direction: row-reverse;
+}
+
 .white {
     background-color: white;
 }
@@ -89,4 +93,10 @@ header {
     border: 2px dashed black;
     margin: 50px 0;
     height: 400px;
+}
+
+.img-container .img.green {
+    background-color: #228B22;
+    width: 80%;
+    height: 600px;
 }
